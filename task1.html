@@ -1,0 +1,304 @@
+<!DOCTYPE html><!-- 定义文档类型 -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务一：零基础HTML编码</title>
+</head>
+<body>
+	<!-- 这是注释 -->
+<a href="#">定义锚</a>
+
+<abbr title="可以在 <abbr> 标签中使用全局的 title 属性，这样就能够在鼠标指针移动到 <abbr> 元素上时显示出简称/缩写的完整版本">定义缩写</abbr>
+
+<acronym title="World Wide Web">WWW</acronym>
+
+<address>
+Written by <a href="mailto:webmaster@example.com">地址请点击</a>.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<img src="images/300.jpg" border="0" usemap="#planetmap" alt="Planets" />
+
+<article>
+  <h1>标签规定独立的自包含内容。标签规定独立的自包含内容。</h1>
+  <p>一篇文章应有其自身的意义，应该有可能独立于站点的其余部分对其进行分发。</p>
+</article>
+
+<p>这是普通文本 - <b>这是粗体文本</b>。</p>
+
+<ul>
+	<li> 标签允许您设置一段文本，使其脱离其父元素的文本方向设置。 <bdi> 标签是 HTML5 中的新标签。</bdi> 标签是 HTML5 中的新标签。</li>
+	<li>在发布用户评论或其他您无法完全控制的内容时，该标签很有用。 <bdi> 标签是 HTML5 中的新标签。</bdi> 标签是 HTML5 中的新标签。</li>
+</ul>
+<p>实际上我是这样的<b>Here is some text</b></p>
+<p>使用标签bdo dir="rtl"看起来我是这样的<bdo dir="rtl">Here is some text</bdo></p>
+
+
+<p>实际上我是这样的 <span>Here is some text</span></p>
+<p>使用标签big看起来我是这样的 <big>Here is some text</big></p>
+
+
+<blockquote>
+标签定义块引用。Here is a long quotation here is a long quotation here is a long quotation  之间的所有文本都会从常规文本中分离出来，经常会在左、右两边进行缩进（增加外边距），而且有时会使用斜体。也就是说，块引用拥有它们自己的空间。
+here is a long quotation here is a long quotation here is a long quotation 
+here is a long quotation here is a long quotation here is a long quotation.
+</blockquote>
+
+<button type="button">Click Me!</button>
+
+<canvas id="myCanvas"></canvas>
+
+<script type="text/javascript">
+
+var canvas=document.getElementById('myCanvas');
+var ctx=canvas.getContext('2d');
+ctx.fillStyle='#FF0000';
+ctx.fillRect(0,0,80,100);
+
+</script>
+
+
+<table border="1">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
+<center>我是居中标签center</center>
+
+<code>jasdk;fjkaadkjsajk;dajfdkjklafd;jfdaf;kljfakjdafdjkl</code>
+<center>我是居中标签center</center>
+
+
+<table width="100%" border="1">
+  <col align="left" />
+  <col align="left" />
+  <col align="right" />
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+<menu>
+<command onclick="alert('Hello World')">
+Click Me!</command>
+</menu>
+<p>下面是一个 input 元素，datalist 中描述了其可能的值：</p>
+<input id="myCar" list="cars" />
+<datalist id="cars">
+  <option value="BMW">
+  <option value="Ford">
+  <option value="Volvo">
+</datalist>
+
+
+<dl>
+   <dt>计算机</dt>
+   <dd>用来计算的仪器 ... ...</dd>
+   <dt>显示器</dt>
+   <dd>以视觉方式显示信息的装置 ... ...</dd>
+</dl>
+
+
+a dozen is <del>20</del> 12 pieces
+
+
+
+
+<details>
+<summary>Copyright 2011.目前只有 Chrome 支持</summary>
+<p>All pages and graphics on this web site are the property of W3School.</p>
+</details>
+
+<table border="1">
+<tr>
+  <th>一月 <dialog open>这是dialog 打开的对话窗口</dialog></th>
+  <th>二月</th>
+  <th>三月</th>
+</tr>
+<tr>
+  <td>31</td>
+  <td>28</td>
+  <td>31</td>
+</tr>
+</table>
+
+<dir>
+   <li>HTML</li>
+   <li>XHTML</li>
+   <li>CSS</li>
+</dir>
+
+<div style="color:red">
+  <h3>This is a header</h3>
+  <p>This is a paragraph.</p>
+</div>
+<dl>
+   <dt>我是dt计算机</dt>
+   <dd>我是dd用来计算的仪器 ... ...</dd>
+   <dt>我是dt显示器</dt>
+   <dd>我是dd以视觉方式显示信息的装置 ... ...</dd>
+</dl>
+<table width="100%" border="1">
+  <col align="left" />
+  <col align="left" />
+  <col align="right" />
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+<form>
+  <fieldset>
+    <legend>health information</legend>
+    height: <input type="text" />
+    weight: <input type="text" />
+  </fieldset>
+</form>
+
+
+<figure>
+  <figcaption>黄浦江上的的卢浦大桥</figcaption>
+  <img src="images/300.jpg" width="350" height="234" />
+</figure>
+
+<font size="3" color="red">This is some text!</font>
+<font size="2" color="blue">This is some text!</font>
+<font face="verdana" color="green">This is some text!</font>
+
+<form action="form_action.asp" method="get">
+  <p>First name: <input type="text" name="fname" /></p>
+  <p>Last name: <input type="text" name="lname" /></p>
+  <input type="submit" value="Submit" />
+</form>
+
+
+
+<h1>This is header 1</h1>
+<hr />
+<p>This is some text</p>
+
+<form action="demo_keygen.asp" method="get">
+Username: <input type="text" name="usr_name" />
+Encryption: <keygen name="security" />
+<input type="submit" />
+</form>
+
+
+<form>
+  <label for="male">Male</label>
+  <input type="radio" name="sex" id="male" />
+  <br />
+  <label for="female">Female</label>
+  <input type="radio" name="sex" id="female" />
+</form>
+
+<form>
+  <fieldset>
+    <legend>health information</legend>
+    height: <input type="text" />
+    weight: <input type="text" />
+  </fieldset>
+</form>
+
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+
+<select>
+  <optgroup label="Swedish Cars">
+    <option value ="volvo">Volvo</option>
+    <option value ="saab">Saab</option>
+  </optgroup>
+
+  <optgroup label="German Cars">
+    <option value ="mercedes">Mercedes</option>
+    <option value ="audi">Audi</option>
+  </optgroup>
+</select>
+
+
+<select>
+  <option value ="volvo">Volvo</option>
+  <option value ="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+  <p>Posted by: W3School</p>
+  <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+</footer>
+
+
+</body>
+</html>
