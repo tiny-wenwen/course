@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务十：Flexbox 布局练习</title>
+	<style type="text/css">
+		*{margin: 0; padding: 0; box-sizing: border-box;}
+		.rows{width: 100%; display: flex; justify-content: space-between; align-items: center; border:1px solid #675;}
+		.column{width: 150px; border: 1px solid #f00; padding: 20px; margin: 20px;}
+		.col-1{height: 120px;}
+		.col-2{height: 100px;}
+		.col-3{height: 40px;}
+		.col-4{height: 200px; border: 1px solid blue;}
+	
+			
+		@media (max-width:640px){			
+			.rows{ align-items: flex-start; flex-wrap: wrap; }
+			.col-4{ order: -1}
+		}
+	</style>
+</head>
+<body>
+	<div class="rows">
+		<div class="column col-1"></div>
+		<div class="column col-2"></div>
+		<div class="column col-3"></div>
+		<div class="column col-4"></div>
+	</div>
+</body>
+</html>
