@@ -1,0 +1,21 @@
+*{font: 12px "Microsoft YaHei"}
+.body{ background-color: #ededec}
+.main{width: 1280px; margin: 0 auto;}
+header{width: 100%; background-color: #2289bf; height: 56px;}
+
+.header{width: 1280px; margin: 0 auto;  }
+.header-col-1{width: 15%; background-color: #342; height: 56px; float: left;}
+.header-col-2{width: calc(100% - 15% - 10%); background-color: #765; height: 56px; float: left;}
+.header-col-3{width: 10%; background-color: #234; height: 56px; float: left;}
+
+/* .box-outside{width: 36px; height: 36px; background-color: #fff; position: absolute; top: 10px;}
+.box-inside{width: 20px; height: 20px; border-left: 3px solid #2289bf; border-top: 3px solid #2289bf; position: absolute; bottom: 0; right: 0;} */
+
+.btn-user{ color: #fff; float: right; line-height: 45px; }
+
+.main-left {	width: 260px;	float: left; height: 1210px; background-color: #2a2e3d; }
+.main-right {	width: calc(100% - 260px);	float: right; height: 1210px; background-color: #ededec}
+.crumbs{height: 30px; background-color: #fff;}
+.big-box{background-color: #544; width: 890px; height: 100%; margin: 20px auto 0px auto; }
+.search{height: 86px;}
+
